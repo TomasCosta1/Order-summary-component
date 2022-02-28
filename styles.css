@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    position: absolute;
+    background-color: hsl(225, 100%, 94%);
+    width: 100%;
+}
+
+p{
+    font-size: 16px;
+}
+.background{
+    width: 100%;
+}
+.container{
+    background-color: white;
+    position: relative;
+    width: 25%;
+    margin: 0px auto;
+    bottom: 300px;
+    border-radius: 10px;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.text{
+    text-align: center;
+
+}
+
+.text h1{
+    color: hsl(223, 47%, 23%);
+}
+.text p{
+    padding: 0px 45px;
+    font-size: 13px;
+}
+
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    position: relative;
+    width: 250px;
+    margin: 0px auto;
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.plan h4{
+    display: inline;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+    color: hsl(223, 47%, 23%);
+}
+
+#price{
+    position: relative;
+    left: 72px;
+    bottom: 40px;
+    font-size: 13px;
+}
+.plan a{
+    position: relative;
+    float: right;
+    bottom: 80px;
+    font-size: 13px;
+}
+
+.proced{
+    background-color: hsl(245, 75%, 52%);
+    position: relative;
+    display: flexbox;
+    color: white;
+    width: 270px;
+    margin: 20px auto;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+    
+}
+.proced h4{
+    position: relative;
+    text-align: center;
+    left: 30px;
+    padding: 10px 0px;
+}
+
+.proced:hover{
+    box-shadow: 0px 2px 5px gray;
+}
+
+.cancel{
+    width: 100px;
+    height: 20px;
+    margin: 0px auto;
+    position: relative;
+    color: gray;
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+    cursor: pointer;
+}
+
+.cancel:hover{
+    border-style: 1px double gray;
+}
